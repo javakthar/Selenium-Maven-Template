@@ -99,7 +99,7 @@
 
         <export>
             <export_insert>xml-stylesheet type='text/xsl' href='SourceMonitor.xslt'</export_insert>
-            <export_file>src\dump.xml</export_file>
+            <export_file>dump.xml</export_file>
             <export_type>1 (project summary as XML)</export_type>
         </export>
 
