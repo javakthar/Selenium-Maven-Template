@@ -85,7 +85,7 @@
         <dependency>
             <groupId>org.codehaus.sonar-plugins.dotnet</groupId>
             <artifactId>sonar-plugin-sourcemonitor</artifactId>
-            <version>0.6</version>
+            <version>0.3</version>
         </dependency>
     </dependencies>
 
