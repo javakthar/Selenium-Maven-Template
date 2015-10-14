@@ -171,6 +171,14 @@
                               </manifestEntries>
                             </archive>
                         </configuration>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>Code-Analysis</goal>
+                                    <goal>sourcemonitor</goal>
+                                </goals>
+                            </execution>
+                        </executions>
                       </plugin>
                 </plugins>
             </build>
