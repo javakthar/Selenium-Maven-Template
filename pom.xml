@@ -82,6 +82,11 @@
             <version>6.9.6</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.codehaus.sonar-plugins.dotnet</groupId>
+            <artifactId>sonar-plugin-sourcemonitor</artifactId>
+            <version>0.3</version>
+        </dependency>
     </dependencies>
 
     <profiles>
