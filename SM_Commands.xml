@@ -22,7 +22,7 @@
 
     <command>
 
-        <project_file>\src\MyProject.smp</project_file>
+        <project_file>src\MyProject.smp</project_file>
 
         <!-- ===============================================================
          For a new project, you must specify the language and the location
@@ -38,7 +38,7 @@
 
         <project_language>java</project_language>
         <modified_complexity>true</modified_complexity>
-        <source_directory>\src</source_directory>
+        <source_directory>/</source_directory>
 
         <!-- ===============================================================
          If the optional flag element, "exclude_subdirectories", is "true"
@@ -99,7 +99,7 @@
 
         <export>
             <export_insert>xml-stylesheet type='text/xsl' href='SourceMonitor.xslt'</export_insert>
-            <export_file>\src\dump.xml</export_file>
+            <export_file>src\dump.xml</export_file>
             <export_type>1 (project summary as XML)</export_type>
         </export>
 
