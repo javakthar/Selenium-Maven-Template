@@ -161,6 +161,17 @@
                             </execution>
                         </executions>
                     </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
+                        <configuration>
+                            <archive>
+                              <manifestEntries>
+                                <Plugin-Class>org.sonar.plugin.dotnet.srcmon.SourceMonitorPlugin</Plugin-Class>
+                              </manifestEntries>
+                            </archive>
+                        </configuration>
+                      </plugin>
                 </plugins>
             </build>
         </profile>
